@@ -52,8 +52,7 @@ jobs:
         args: install
     - name: serverless deploy
       uses: serverless/github-action@master
-      env:
-        working-directory: backend
+      working-directory: backend
       with:
         args: deploy
       env:
