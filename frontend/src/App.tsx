@@ -26,13 +26,13 @@ function App() {
         </nav>
         <Switch>
           <Route path="/about">
-            <p>About</p>
+            <p>Meow</p>
           </Route>
           <Route path="/users">
-            <p>Users</p>
+            <p>Woof</p>
           </Route>
           <Route path="/">
-            <p>Root</p>
+            <p>Quack</p>
           </Route>
         </Switch>
       </div>
